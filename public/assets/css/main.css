@@ -1,10 +1,62 @@
 @font-face{
-	font-family: Inter;
-	src : url(../fonts/Inter/Inter-Regular.ttf);
+	font-family: Poppins;
+	src : url(../fonts/Poppins/Poppins-Regular.ttf);
 }
 
 body{
-	font-family: Inter;
+	font-family: Poppins;
+}
+
+.btn-shape{
+	border-radius: 12px;
+}
+
+.btn-color1{
+	background-color: rgb(98,70,250);
+  	border: none;
+  	color: white;
+  	padding: 10px 30px;
+  	text-align: center;
+  	text-decoration: none;
+  	display: inline-block;
+  	font-size: 16px;
+	transition: 0.6s;
+}
+.btn-color1:hover{
+	background-color: white;
+	color: rgb(98,70,250);
+}
+
+.btn-color2{
+	background-color: white;
+  	border: none;
+  	color: black;
+  	padding: 10px 30px;
+  	text-align: center;
+  	text-decoration: none;
+  	display: inline-block;
+  	font-size: 16px;
+	transition: 0.6s;
+}
+.btn-color2:hover{
+	background-color: transparent;
+	color: white;
+}
+
+.btn-color3{
+	background-color: white;
+  	border: 2px solid black;
+  	color: black;
+  	padding: 10px 30px;
+  	text-align: center;
+  	text-decoration: none;
+  	display: inline-block;
+  	font-size: 16px;
+	transition: 0.6s;
+}
+.btn-color3:hover{
+	background-color: black;
+	color: white;
 }
 
 .text-color1{
@@ -14,7 +66,11 @@ body{
 	background-color: lightgrey;
 }
 .bg-color2{
-	background-color: rgb(98,70,250);;
+	background-color: rgb(98,70,250);
+}
+
+.bg-color3{
+	background-color: rgb(232, 232, 232) ;
 }
 
 @media(min-width: 576px){
